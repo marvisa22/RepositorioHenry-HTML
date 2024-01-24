@@ -3,41 +3,102 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Muebleria Vimar</title>
+    <title>Contacto</title>
+    <link rel="stylesheet" href="/CSS/reset.css">
+    <link rel="stylesheet" href="/CSS/contacto.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
 </head>
 <body>
-    <h1>CONTACTENOS</h1>
 
-    <section>
-        <a href="http://www.bing.com/search?pglt=2081&q=muebleria+vimar&cvid=c0d9f8dfbae84c72be4773e4f8a41d0d&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIECAEQADIECAIQADIGCAMQRRhB0gEINjM2MGowajGoAgCwAgA&FORM=ANNTA1&PC=U531"> <img src="/IMG/Ubicacion.PNG" alt=""></a>
-    </section>
+    <header>
+        <a href="/index.html">
+            <button>Ir a la pagina principal</button>
+        </a>
+        <img class="logo" src="/IMG/portada vimar2.png" alt="">
+        <div id="menu_container">
+            <div class="menu">
+                <a href="/quienes_somos.html">Quienes somos</a>
+            </div>
+            <div class="menu">
+                <a href="/galeria.html">Galeria</a>
+            </div>
+            <div class="menu">
+                <a href="/portafolio.html">Portafolio</a>
+            </div>
+            <div class="menu">
+                <a href="/reparaciones.html">Reparaciones</a>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        
+        <div class="ubicacion">
+            <h1>CONTACTENOS</h1>
+            <section>
+                <a href="http://www.bing.com/search?pglt=2081&q=muebleria+vimar&cvid=c0d9f8dfbae84c72be4773e4f8a41d0d&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIECAEQADIECAIQADIGCAMQRRhB0gEINjM2MGowajGoAgCwAgA&FORM=ANNTA1&PC=U531"> <img class="mapa" src="/IMG/Ubicacion.PNG" alt=""></a>
+            </section>
+        </div>
+        
 
-    <form action="">
-        <div>
-            <label for="texto">Nombre</label>
-            <input type="text" name="nombre" placeholder="Nombre:">
-        </div>
-        <div>
-            <label for="E-mail">E-mail</label>
-            <input type="text" name="E-mail" placeholder="E-mail:">
-        </div>
-        <div>
-            <label for="num">Telefono</label>
-            <input type="number" name="Telefono" placeholder="Telefono:">
-        </div>
-        <div>
-            <label for="asunto">Asunto</label>
-            <input type="text" name="Asunto" placeholder="Asunto:">
-        </div>
-        <div>
-            <label for="mensaje">Mensaje</label>
-            <input type="text" name="mensaje" placeholder="Mensaje:">
-        </div>
-        <div>
-            <button>ENVIAR</button>
-        </div>
-    </form>
+        <form action="">
+            <div>
+                <label for="texto">Nombre</label>
+                <input type="text" name="nombre" placeholder="Escribe tú nombre:">
+            </div>
+            <div>
+                <label for="E-mail">E-mail</label>
+                <input type="text" name="E-mail" placeholder="Escribe tú e-mail:">
+            </div>
+            <div>
+                <label for="num">Telefono</label>
+                <input type="number" name="Telefono" placeholder="Escribe tú telefono:">
+            </div>
+            <div>
+                <label for="asunto">Asunto</label>
+                <input type="text" name="Asunto" placeholder="Escribe un asunto:">
+            </div>
+            
+            <div>
+                <label for="mensaje">Mensaje</label>
+                <textarea type="text" name="mensaje" placeholder="Deja aquí tú comentario:"></textarea>
+            
+            </div>
+        
+            <div>
+                <button>ENVIAR</button>
+            </div>
+        </form>
+    
+    </main>
 
+    <footer>
+        <div class="footer-contain">
+            <h3 class="title">siguenos en nuestras redes sociales</h3>
+            <section>
+                <div class="redes-sociales">
+                    <a href="https://www.instagram.com/muebleriavimar/" target="_blank">
+                        <i class="bi bi-instagram" id="instagram"></i>
+                    </a>
+                    <a href="https://wa.me/c/573006248942/" target="_blank">
+                        <i class="bi bi-whatsapp" id="whatsapp"></i>
+                    </a>
+                    <a href="https://www.facebook.com/MuebleriaVimar?sfnsn=scwspwa&mibextid=RUbZ1f" target="_blank">
+                        <i class="bi bi-facebook" id="facebook"></i>
+                    </a>
+                </div>
+            </section> 
+            <div >
+                <h3 class="title">Muebleria Vimar</h3>
+                <ul class="footer-ubicacion">
+                    <li>Direccion: Calle 30 # 72 - 12, Belen Rosales, Medellín-Antioquia</li>
+                    <li>WhatsApp: 3006248942</li>
+                    <li>E-mail: muebleriavimar320@gmail.com</li>
+                </ul>  
+            </div>
+        </div>
+        
+    </footer>
     
 </body>
 </html>

@@ -1,0 +1,130 @@
+body{
+    background-color:white;
+}
+
+/******************************************HEADER********************************************/
+
+header {
+    padding: 10px 0;
+    text-align: center;
+}
+
+button {
+    background-color: coral;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1em;
+    font-family: cursive;
+}
+  
+button:hover {
+    background-color: rgb(187, 4, 96);
+}
+
+.logo{
+    max-width: 100%; 
+    margin: 15px 0 15px 0;
+}
+
+#menu_container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    font-size: 2em;
+    border-radius: 2em;
+    margin: 15px 15px 0 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color:rgb(187, 4, 96);
+}
+
+.menu:hover{
+    background-color:rgb(248, 197, 178);
+    transition: ease-in .3s;
+    border-radius: 20%;
+    padding: 0.2em;
+}
+
+/*************************************************MAIN****************************************************/
+
+.product-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.producto {
+    width: 300px; /* Ancho del contenedor del producto */
+    margin: 20px; /* Espacio entre productos */
+    text-align: center; /* Centra el contenido dentro del contenedor */
+}
+
+.producto h2{
+    font-size: 1em;
+    font-family: cursive;
+}
+
+img {
+    max-width: 100%; /* Asegura que la imagen no se salga del contenedor */
+    height: 70%; /* Mantiene la proporción de la imagen */
+}
+
+/********************************************FOOTER************************************************/
+
+.footer-contain{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.title{
+    color: coral;
+    font-size: 2em;
+    font-family:cursive;
+    margin: 1em;
+}
+
+.redes-sociales i{
+    margin: 1em;
+    color: #630d0d;
+    text-decoration: none;
+    font-size: 3em;
+    border: 0.5 solid black;
+}
+
+#instagram{
+    color: orangered;
+}
+#whatsapp{
+    color: green;
+}
+#facebook{
+    color: blue;
+}
+
+.redes-sociales i:hover{
+    background-color: rgb(66, 31, 16);
+    border-radius: 50%;
+    padding: 0.3em 0.3em;
+    transition: ease-in .2s;
+}
+
+.footer-ubicacion li{
+    font-size: 1em;
+    margin-bottom: 0.5em;
+    font-family: initial;
+    color: brown;
+}
